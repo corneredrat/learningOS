@@ -11,7 +11,7 @@ int simple_init(void)
 void simple_exit(void)
 {
     printk(KERN_INFO "Exiting module\n");
-    return 0;
+    return;
 }
 
 module_init(simple_init);
