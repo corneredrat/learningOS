@@ -4,13 +4,13 @@
 
 int simple_init(void)
 {
-    printk(KERNEL_INFO "Loading module\n");
+    printk(KERN_INFO "Loading module\n");
     return 0;
 }
 
 int simple_exit(void)
 {
-    printk(KERNEL_INFO "Exiting module\n");
+    printk(KERN_INFO "Exiting module\n");
     return 0;
 }
 
